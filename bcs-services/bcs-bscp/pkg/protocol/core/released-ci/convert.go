@@ -146,6 +146,7 @@ func PbConfigItemState(cis []*table.ConfigItem, fileRelease []*table.ReleasedCon
 				delete(releaseMap, ci.ID)
 			}
 		}
+
 		if len(fileState) == 0 {
 			fileState = ADD
 		}
